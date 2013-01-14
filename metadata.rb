@@ -1,0 +1,7 @@
+maintainer       "Pwnie Express"
+maintainer_email "jcran@pwnieexpress.com"
+license          "BSD 3-Clause License"
+description      "Installs/Configures a Sample plugin"
+version          "0.0.1"
+recipe           "sample-cookbook::install", "Install and Update"
+recipe           "sample-cookbook::uninstall", "Uninstall"
